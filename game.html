@@ -1,0 +1,55 @@
+<!DOCTYPE html>  
+    <html lang="en">  
+    <head>
+        <meta charset="UTF-8">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <title>Apple Harvest Minigame</title>
+        <link rel="stylesheet" href="./scss/custom.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&amp;display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/extra_styles.css">
+ 
+    </head>  
+    <body>
+        <nav class="navbar navbar-expand-sm" aria-label="Navigation bar">
+            <div class="container-fluid gx-2">
+                <a class="navbar-brand" href="index.html">Apple Harvester</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_menu" aria-controls="main_menu" aria-expanded="false" aria-label="Toggle navigation menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main_menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link px-3 border-end border-bottom border-primary" href="avatar_editor.html">Avatar Editor</a>
+                        </li>
+                        <li class="nav-item  ms-auto">
+                            <a class="nav-link px-3 border-end border-bottom border-primary" href="game.html">Play</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main class="container-fluid">
+        <div class="d-flex flex-md-row flex-column justify-content-center align-items-center align-items-md-center">
+           <canvas id="gameCanvas" class="border border-dark mt-md-3 mt-1 bg-warning-subtle"></canvas>
+           <div>
+            <div class="text-center px-5 py-lg-4 py-2 mt-3 mx-lg-5 mx-md-2 mx-0 bg-warning-subtle">  
+                <h1 class="fs-4">Apples Harvested: <span id="counter">0</span></h1>  
+                <h2 class="fs-5 text-danger" id="gameOverMessage" style="display: none;">Game Over!</h2>
+                <button id="startBtn" class="btn btn-primary">New Game</button>
+            </div>
+            <div class="bg-warning-subtle mt-3 p-2 mx-lg-5 mx-md-2">
+                <h2>How to play</h2>
+                <p>Click or tap to move the hero in the direction of the click. Gather apples while avoiding cacti.</p>
+                <p>After every 3 apples have been harvested, 3 new apples will appear, as well as 2 stationary cacti.</p>
+                <p>When the first 2 apples have been harvested, and for every 5 apples after, a moving bigger cactus will appear.</p>
+            </div>
+           </div>
+            
+        </div>
+        </main>
+        <script src="./js/game_func.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>  
+    </html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&amp;display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/extra_styles.css">
+    
+    <title>Avatar Editor</title>  
+
+</head>  
+<body>
+    <nav class="navbar navbar-expand-sm" aria-label="Navigation bar">
+        <div class="container-fluid gx-2">
+            <a class="navbar-brand" href="index.html">Apple Harvester</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_menu" aria-controls="main_menu" aria-expanded="false" aria-label="Toggle navigation menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main_menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item ms-auto">
+                        <a class="nav-link px-3 border-end border-bottom border-primary" href="avatar_editor.html">Avatar Editor</a>
+                    </li>
+                    <li class="nav-item  ms-auto">
+                        <a class="nav-link px-3 border-end border-bottom border-primary" href="game.html">Play</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main >
+        <div class="container d-flex flex-md-row flex-column align-items-center align-items-md-start justify-content-md-center">
+        
+    <div class="d-flex flex-column p-md-4 p-2  bg-warning-subtle">
+    <h1 class="text-center">Avatar Editor</h1>
+    
+    <canvas id="avatarCanvas" width="240" height="240"></canvas>
+    </div>
+
+    <div class="d-flex flex-column p-md-4 p-2 bg-warning-subtle">
+        <h2>Head color:</h2>
+        <div id="colorOptions-head" class="mb-3">  
+            <div class="color-option bg-red" data-color="#9e4d3d"></div>  
+            <div class="color-option bg-green" data-color="#70d491"></div>  
+            <div class="color-option bg-blue" data-color="#98d8e9"></div>  
+            <div class="color-option bg-yellow" data-color="#fbf28e"></div>  
+        </div>
+        <h2>Shirt color:</h2>
+        <div id="colorOptions" class="mb-3">  
+            <div class="color-option bg-red" data-color="#d4492f"></div>  
+            <div class="color-option bg-green" data-color="#37a75c"></div>  
+            <div class="color-option bg-blue" data-color="#006d98"></div>  
+            <div class="color-option bg-yellow" data-color="#ffbd23"></div>  
+        </div>
+        <h2>Background color:</h2>
+        <div id="colorOptions-bg" class="mb-3">  
+            <div class="color-option bg-red" data-color="#d99487"></div>  
+            <div class="color-option bg-green" data-color="#a8e4bb"></div>  
+            <div class="color-option bg-blue" data-color="#57b9e2"></div>  
+            <div class="color-option bg-yellow" data-color="#ffeb10"></div>  
+        </div>
+        <h2>Eyes:</h2>
+        <div id="eyeOptions" class="mb-3">
+            <img src="./images/eyes1.svg" class="eye-option" alt="Neutral eyes" data-eye="1">
+            <img src="./images/eyes2.svg" class="eye-option" alt="Sleepy eyes" width="60" height="60" data-eye="2">
+            <img src="./images/eyes3.svg" class="eye-option" alt="Angry eyes" width="60" height="60" data-eye="3">
+            <img src="./images/eyes4.svg" class="eye-option" alt="Wide eyes" width="60" height="60" data-eye="4">
+        </div>
+        <h2>Mouth:</h2>
+        <div id="mouthOptions" class="mb-3">
+            <img src="./images/mouth1.svg" class="mouth-option" alt="Happy mouth" width="60" height="60" data-mouth="1">
+            <img src="./images/mouth2.svg" class="mouth-option" alt="Neutral mouth" width="60" height="60" data-mouth="2">
+            <img src="./images/mouth3.svg" class="mouth-option" alt="Sad mouth" width="60" height="60" data-mouth="3">
+            <img src="./images/mouth4.svg" class="mouth-option" alt="Quizzical mouth" width="60" height="60" data-mouth="4">
+        </div>
+        <!-- Mouth and eyes vectorized using https://vectorization.eu/ -->
+        <button id="saveBtn" class="btn btn-primary">Save</button>  
+        <button id="resetBtn" class="btn btn-danger mt-3">Reset</button>
+        <div id="starContainer"></div>
+    </div>
+    </div>
+    
+
+</main>
+    <script src="./js/functions.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>  
+</html>

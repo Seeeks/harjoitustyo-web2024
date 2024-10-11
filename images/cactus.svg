@@ -1,0 +1,56 @@
+<svg id="cactus" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #caaa29;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #56b700;
+        stroke: #000;
+        stroke-width: 7px;
+      }
+    </style>
+  </defs>
+  <path id="Muoto_2" data-name="Muoto 2" class="cls-1" d="M-0.122,192.675c2.136-7.612,26.7-32.611,33.117-31.934S66.383,190.3,66.112,196.223s-51.78,3.828-57.954,3.548S-1.909,199.046-.122,192.675Z"/>
+  <path id="Muoto_3" data-name="Muoto 3" class="cls-1" d="M143,190.144c-1.173,15.359,43.518,9.591,49.91,6.806s8.882-4.676,5.672-11.343-18.942-23.9-24.955-24.956S143.582,182.517,143,190.144Z"/>
+  <path id="Muoto_1" data-name="Muoto 1" class="cls-2" d="M11.455,131.836c-2.549-6.464-1.1-59.808.932-72.718C14.311,46.928,24.73,43.86,34.762,44.2s18.4,2.676,18.646,10.255c0.219,6.809.065,15.559,0,27.969s-1.681,21.125-.932,22.375,11.344,0.192,12.12-1.864S63.99,59.53,63.663,53.525s-1.092-19.064,3.729-26.1,6.335-11.933,33.562-12.12c20.739-.142,29.577,2.527,32.63,10.255s3.4,14.935,2.8,23.307,0.4,49.228,0,53.14,13.1,5.727,13.052,1.865-8.271-40.7-3.729-47.546,11.423-11.953,23.307-12.12,14.31,2.518,17.713,10.255,5.591,63.093,1.865,71.786-4.276,10.237-13.052,13.984-29.754,1.067-34.494,3.729-1.22,36.387-1.865,42.885c-0.805,8.1-6.661,9.944-17.713,10.255-12.174.343-36.35,1.679-42.885,0.932s-9.744-3.544-10.255-12.119-0.9-29.1-.932-34.5-4.622-6.591-45.682-8.39C13.741,142.674,14,138.3,11.455,131.836Z"/>
+  <path id="Viiva_1" data-name="Viiva 1" class="cls-3" d="M21.728,46.992l-3.455,2.015-7-12,3.455-2.015Z"/>
+  <path id="Viiva_2" data-name="Viiva 2" class="cls-3" d="M181.687,47.074l-3.374-2.148,7-11,3.374,2.148Z"/>
+  <path id="Viiva_3" data-name="Viiva 3" class="cls-3" d="M158.638,48.853l-3.276,2.294-7-10,3.276-2.294Z"/>
+  <path id="Viiva_4" data-name="Viiva 4" class="cls-3" d="M43.585,51.219l-3.17-2.439,10-13,3.17,2.439Z"/>
+  <path id="Viiva_5" data-name="Viiva 5" class="cls-3" d="M35.991,49.81l-3.982.379-2-21,3.982-.379Z"/>
+  <path id="Viiva_6" data-name="Viiva 6" class="cls-3" d="M166.976,44.688l-3.952.624-3-19,3.952-.624Z"/>
+  <path id="Viiva_7" data-name="Viiva 7" class="cls-3" d="M20.4,125.976l4.732,3.853L9.1,149.517l-4.732-3.852Z"/>
+  <path id="Viiva_8" data-name="Viiva 8" class="cls-3" d="M178.264,137.992l3.472-1.984,8,14-3.472,1.984Z"/>
+  <path id="Viiva_9" data-name="Viiva 9" class="cls-3" d="M157.742,130.065l6.163-1.541,6.353,25.411-6.163,1.541Z"/>
+  <path id="Viiva_10" data-name="Viiva 10" class="cls-3" d="M36.2,133.306l5.036,1.888-8.067,21.513-5.036-1.888Z"/>
+  <path id="Viiva_11" data-name="Viiva 11" class="cls-3" d="M52.391,134.069l5.707,1.07-4.355,23.227-5.707-1.07Z"/>
+  <path id="Viiva_12" data-name="Viiva 12" class="cls-3" d="M139.415,132.881l5.907-2.362,9.543,23.857-5.907,2.363Z"/>
+  <path id="Viiva_13" data-name="Viiva 13" class="cls-3" d="M189.336,125.109l3.328-2.218,6,9-3.328,2.218Z"/>
+  <path id="Viiva_14" data-name="Viiva 14" class="cls-3" d="M138.125,180L137.875,176l16-1,0.25,3.992Z"/>
+  <path id="Viiva_15" data-name="Viiva 15" class="cls-3" d="M76.53,178v4.954H53V178H76.53Z"/>
+  <path id="Viiva_16" data-name="Viiva 16" class="cls-3" d="M73.419,154.873l2.34,6.2L50.9,170.452l-2.34-6.2Z"/>
+  <path id="Viiva_17" data-name="Viiva 17" class="cls-3" d="M141,166v-4h17v4H141Z"/>
+  <path id="Viiva_18" data-name="Viiva 18" class="cls-3" d="M80.692,27.538l-2.808,4.34L55.916,17.663l2.808-4.34Z"/>
+  <path id="Viiva_19" data-name="Viiva 19" class="cls-3" d="M127,31.922l-2.7-4.411L147.56,13.3l2.695,4.41Z"/>
+  <path id="Viiva_20" data-name="Viiva 20" class="cls-3" d="M-0.181,51.458L2.8,47.39,21.718,61.262,18.735,65.33Z"/>
+  <path id="Viiva_21" data-name="Viiva 21" class="cls-3" d="M197.639,39.534l2.722,2.931-14,13-2.722-2.931Z"/>
+  <path id="Viiva_22" data-name="Viiva 22" class="cls-3" d="M50.075,34.773l1.85-3.546,23,12-1.85,3.546Z"/>
+  <path id="Viiva_23" data-name="Viiva 23" class="cls-3" d="M126.992,50.737l-1.984-3.473,21-12,1.984,3.473Z"/>
+  <path id="Viiva_24" data-name="Viiva 24" class="cls-3" d="M152.812,92.172l-1.624,3.655-18-8,1.624-3.655Z"/>
+  <path id="Viiva_25" data-name="Viiva 25" class="cls-3" d="M49.894,93.789l-1.789-3.578,20-10,1.789,3.578Z"/>
+  <path id="Viiva_26" data-name="Viiva 26" class="cls-3" d="M78.788,62.162l-1.576,3.677-28-12,1.576-3.677Z"/>
+  <path id="Viiva_27" data-name="Viiva 27" class="cls-3" d="M127.869,72.8l-1.738-3.6,29-14,1.738,3.6Z"/>
+  <path id="Viiva_28" data-name="Viiva 28" class="cls-3" d="M83.573,18.764l-3.145,2.471-11-14,3.145-2.471Z"/>
+  <path id="Viiva_29" data-name="Viiva 29" class="cls-3" d="M97.5,23.875l-4.994.25-1-20,4.994-.25Z"/>
+  <path id="Viiva_30" data-name="Viiva 30" class="cls-3" d="M113.4,25.718l-4.79-1.437,6-20,4.79,1.437Z"/>
+  <path id="Viiva_31" data-name="Viiva 31" class="cls-3" d="M179.826,78.36l-1.652-4.719,20-7,1.652,4.719Z"/>
+  <path id="Viiva_32" data-name="Viiva 32" class="cls-3" d="M181.708,104.483l0.584-4.966,17,2-0.584,4.966Z"/>
+  <path id="Viiva_33" data-name="Viiva 33" class="cls-3" d="M1.208,113.491l-0.415-4.982,24-2,0.415,4.982Z"/>
+  <path id="Viiva_34" data-name="Viiva 34" class="cls-3" d="M-0.354,81.475l0.707-4.95,21,3-0.707,4.95Z"/>
+</svg>
